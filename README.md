@@ -34,6 +34,9 @@ Each method cross-validates the others, ensuring the 0.67Hz signal is real, not 
 📊 Visual Validation
 When run, the code generates a 6-panel visualization showing:
 
+<img width="1581" height="1028" alt="PNG image" src="https://github.com/user-attachments/assets/9051d441-a09e-4acd-bb40-d0f48a13e179" />
+
+
 Panel	Content
 1	Raw time series data (control vs test)
 2	FFT frequency spectrum with 0.67Hz peak
