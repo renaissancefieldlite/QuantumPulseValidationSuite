@@ -1,8 +1,7 @@
 🔬 Quantum Pulse Validation Suite v1.0
-Detecting the 0.67Hz Quantum Coherence Pulse — The "Heartbeat" of Quantum Systems
-https://img.shields.io/badge/python-3.8+-blue.svg
-https://img.shields.io/badge/License-MIT-yellow.svg
-https://img.shields.io/badge/arXiv-2402.xxxxx-b31b1b.svg
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![arXiv](https://img.shields.io/badge/arXiv-2402.xxxxx-b31b1b.svg)](https://arxiv.org)
 
 🌌 Overview
 This repository operationalizes the detection of an intrinsic 0.67Hz coherence oscillation in quantum systems—a phenomenon previously dismissed as noise, now revealed as the quantum substrate's natural "heartbeat."
