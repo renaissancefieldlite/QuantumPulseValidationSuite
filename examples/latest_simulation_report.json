@@ -1,0 +1,20 @@
+{
+  "mode": "simulation",
+  "evidence_status": "simulation_baseline",
+  "claim_under_test": "Whether the spectral pipeline recovers a known carrier when that carrier is present by design.",
+  "control_trace": {
+    "dominant_frequency_hz": 1.2333333333333334,
+    "band_power_0p60_0p74_hz": 428.6865305871612,
+    "band_power_0p10_2p00_hz": 4355.429465676256,
+    "peak_power": 18613.382858637862
+  },
+  "injected_trace": {
+    "dominant_frequency_hz": 0.6666666666666666,
+    "band_power_0p60_0p74_hz": 976.9296696779569,
+    "band_power_0p10_2p00_hz": 4867.316925567695,
+    "peak_power": 43967.21598451617
+  },
+  "delta_band_power_0p60_0p74_hz": 548.2431390907957,
+  "schema_version": "rfl.quantum_pulse_validation.v2",
+  "next_step": "Run the same spectral analysis on non-simulated traces before treating the output as direct empirical evidence."
+}

@@ -1,0 +1,23 @@
+{
+  "mode": "hardware-derived",
+  "evidence_status": "hardware_derived_model",
+  "claim_under_test": "What low-frequency structure appears in a calibration-anchored decoherence trace without imposing a target carrier.",
+  "noise_summary": {
+    "mean_coherence_proxy": 0.0004166666666666667,
+    "min_coherence_proxy": 0.0,
+    "max_coherence_proxy": 1.0,
+    "drift_span_ghz": 0.02698323591359486,
+    "depolarization_events": 28,
+    "readout_flip_events": 52,
+    "leakage_events": 14,
+    "neighbor_bleed_events": 173
+  },
+  "spectral_summary": {
+    "dominant_frequency_hz": 0.008333333333333333,
+    "band_power_0p60_0p74_hz": 0.1333333333333333,
+    "band_power_0p10_2p00_hz": 1.9,
+    "peak_power": 1.0
+  },
+  "schema_version": "rfl.quantum_pulse_validation.v2",
+  "next_step": "Run the same spectral analysis on non-simulated traces before treating the output as direct empirical evidence."
+}
