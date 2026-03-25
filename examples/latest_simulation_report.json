@@ -1,7 +1,7 @@
 {
   "mode": "simulation",
   "evidence_status": "simulation_baseline",
-  "claim_under_test": "Whether the spectral pipeline recovers a known carrier when that carrier is present by design.",
+  "claim_under_test": "Whether the spectral pipeline recovers a known 0.67 Hz transition cadence when that cadence is present by design.",
   "control_trace": {
     "dominant_frequency_hz": 1.2333333333333334,
     "band_power_0p60_0p74_hz": 428.6865305871612,

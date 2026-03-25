@@ -1,7 +1,7 @@
 {
   "mode": "hardware-derived",
   "evidence_status": "hardware_derived_model",
-  "claim_under_test": "What low-frequency structure appears in a calibration-anchored decoherence trace without imposing a target carrier.",
+  "claim_under_test": "What low-frequency structure appears in a calibration-anchored decoherence trace without imposing a target 0.67 Hz transition cadence.",
   "noise_summary": {
     "mean_coherence_proxy": 0.0004166666666666667,
     "min_coherence_proxy": 0.0,

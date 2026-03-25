@@ -42,7 +42,7 @@ def run_simulation(duration_seconds: float, sample_rate_hz: float, seed: int) ->
     return {
         "mode": "simulation",
         "evidence_status": "simulation_baseline",
-        "claim_under_test": "Whether the spectral pipeline recovers a known carrier when that carrier is present by design.",
+        "claim_under_test": "Whether the spectral pipeline recovers a known 0.67 Hz transition cadence when that cadence is present by design.",
         "control_trace": control_summary,
         "injected_trace": injected_summary,
         "delta_band_power_0p60_0p74_hz": injected_summary["band_power_0p60_0p74_hz"] - control_summary["band_power_0p60_0p74_hz"],
@@ -58,7 +58,7 @@ def run_hardware_derived(calibration_path: str | None, duration_seconds: float, 
     return {
         "mode": "hardware-derived",
         "evidence_status": "hardware_derived_model",
-        "claim_under_test": "What low-frequency structure appears in a calibration-anchored decoherence trace without imposing a target carrier.",
+        "claim_under_test": "What low-frequency structure appears in a calibration-anchored decoherence trace without imposing a target 0.67 Hz transition cadence.",
         "noise_summary": report["summary"],
         "spectral_summary": spectrum,
     }
