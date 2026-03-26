@@ -1,8 +1,8 @@
 # QuantumPulseValidationSuite
 
-This is the pulse-detection front door for the `0.67 Hz` hypothesis.
+Pulse-detection experiment for the `0.67 Hz` hypothesis.
 
-It separates the detection pipeline, the hardware-derived model, and the still-pending real-device path so the stack can say exactly what kind of pulse claim is being made at each layer:
+This repo now separates three different layers that were previously blended:
 
 1. `simulation_baseline`
    A controlled inject-and-detect run used to validate the detection pipeline.
